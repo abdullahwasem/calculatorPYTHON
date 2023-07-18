@@ -1,0 +1,192 @@
+print("CASIO MODEL NUMBER 23FREX")
+print("this model contains the following functions \n")
+options = ["1:addition" , "2:subtraction" , "3:multiplication" , "4:division" , "5:modulus" , "6:power of"]
+print(options)
+
+choice1= input("input your first choice of operation Eg: 1 or 2 \n")
+if choice1=="1" :
+    print("very well \n")
+elif choice1=="2": 
+    print("very well \n")
+elif choice1=="3" :
+    print("very well \n")
+elif choice1=="4" :
+    print("very well \n")
+elif choice1=="5" :
+    print("very well \n")
+elif choice1=="6" :
+    print("very well \n")    
+else:
+    print("no such choice exist \n ")
+
+
+choice2= input("input your second choice of operation Eg: 1 or 2 \n")
+if choice2=="1" :
+    print("very well \n")
+elif choice2=="2": 
+    print("very well \n")
+elif choice2=="3" :
+    print("very well \n")
+elif choice2=="4" :
+    print("very well \n")
+elif choice2=="5" :
+    print("very well \n")
+elif choice2=="6" :
+    print("very well \n")    
+else:
+    print("no such choice exist \n ")
+
+    
+num1=input("enter number 1 \n ")
+num2=input("enter number 2 \n ")
+num3=input("enter number 3 \n ")
+
+listy = [num1 , num2 , num3]
+print(listy)
+print("are u sure you want to continue with these numbers \n")
+choiceYN = input()
+if choiceYN=="no":
+    num1=input("enter number 1 \n ")
+    num2=input("enter number 2 \n ")
+    num3=input("enter number 3 \n ")
+    listy = [num1 , num2 , num3]
+    print(listy)
+    
+
+
+
+    
+
+print("which numbers do you wanna use first \n")
+n1 = input()
+n2 = input()
+
+if n1=="1":
+    n1=num1
+elif n1=="2":
+    n1=num2
+elif n1=="3":
+    n1=num3
+    
+if n2=="1":
+    n2=num1
+elif n2=="2":
+    n2=num2
+elif n2=="3":
+    n2=num3    
+
+hellobhai = 0 
+
+if choice1=="1":
+    user=choice1
+    add =int(n1)+int(n2)
+    hellobhai = add 
+    print("answer to your addition is " ,add)
+elif choice1=="2":
+    user=choice1
+    sub=int(n1)-int(n2)
+    hellobhai = sub
+    print("answer to your subtraction is " ,sub)   
+elif choice1=="3":
+    user=choice1
+    mul=int(n1) * int(n2)
+    hellobhai = mul
+    print("answer to your multiplication is " ,mul)
+elif choice1=="4":
+    user=choice1
+    div=int(n1)/int(n2)
+    hellobhai = div
+    print("answer to your division is " ,div)
+elif choice1=="5":
+    user=choice1
+    mod=int(n1)%int(n2)
+    hellobhai = mod
+    print("answer to your mod is " ,mod)
+elif choice2=="6":
+    pof=pow(int(n1),int(n2))
+    hellobhai = pof
+    print("answer to your exp is " ,pof)     
+    
+    
+print("which number do you wanna use now \n") 
+n3=input()
+if n3=="1":
+    n3=num1
+elif n3=="2":
+    n3=num2
+elif n3=="3":
+    n3=num3 
+    
+if choice2=="1":
+    
+    add =int(hellobhai)+int(n3)
+    print("answer to your addition is " ,add)
+elif choice2=="2":
+    user=choice1
+    sub=int(hellobhai)-int(n3)
+    print("answer to your subtraction is " ,sub)   
+elif choice2=="3":
+    user=choice1
+    mul=int(hellobhai)*int(n3)
+    print("answer to your multiplication is " ,mul)
+elif choice2=="4":
+    user=choice1
+    div=int(hellobhai)/int(n3)
+    print("answer to your multiplication is " ,div)
+elif choice2=="5":
+    user=choice1
+    mod=int(hellobhai)%int(n3)
+    print("answer to your mod is " ,mod) 
+elif choice2=="6":
+    pof=pow(int(hellobhai),int(n3))
+    print("answer to your exp is " ,pof) 
+    
+    
+    
+    
+    
+
+
+
+
+SUBWAY SYSTEM 
+print("Welcome to Dania's Diner. \n")
+
+bread=["bun","sandwhich","french","italian"] 
+print(bread)
+while True:
+    choiceofbread=input("Which bread would you like? ")
+    if choiceofbread in bread:
+        break;
+        print(meat)
+print("Great. Moving on .. \n")
+
+meat=["chicken","mutton","beef","pepporoni"]
+print(meat)
+choiceofmeat=input("Which meat would you like? ")
+while choiceofmeat!="chicken"and choiceofmeat!="mutton" and choiceofmeat!="beef" and choiceofmeat!="pepporoni":
+    choiceofmeat=input("Which meat would you like? ")
+   
+    
+sauce=["margarita","pepporoni","mustard","ketchup"]
+print(sauce)
+flag=True;
+while flag:
+    choiceofsauce=input("Which sauce would you like? ")
+    if choiceofsauce=="margarita"or choiceofsauce=="pepporoni"or choiceofsauce=="mustard"or choiceofsauce=="ketchup":
+        flag = False;
+        
+    else:
+        flag=True
+        print(sauce)
+        
+print("Your order number is 12. It will be ready and served in 15 minutes. Thank you.")
+print("repeating order \n" )
+print(choiceofbread , " your bread \n")
+print(choiceofmeat, " your meat \n")
+print(choiceofsauce , " your sauce \n")
+
+
+
+
+
